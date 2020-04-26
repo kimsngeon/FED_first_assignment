@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Federo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header">COVID-19</div>
+
+    <div class="firstBox"></div>
+    <div class="secondBox"></div>
+
+    <div id="worldContent">
+      <div id="worldCases"></div>
+      <div id="worldDeaths"></div>
+      <div id="worldRecovered"></div>
+    </div>
+
+    <table>
+      <tbody class="menu" id="menu">
+        <tr class="contentSort">
+          <th class="content1">
+            <button id="country">Country</button>
+          </th>
+          <th class="content1">
+            <button id="cases">Total Cases</button>
+          </th>
+          <th class="content1">
+            <button id="casesPer">
+              Cases Per One Million
+            </button>
+          </th>
+
+          <th class="content2">
+            <button id="deaths">Total Deaths</button>
+          </th>
+          <th class="content2">
+            <button id="deathsPer">
+              Deaths Per One Million
+            </button>
+          </th>
+
+          <th class="content1">
+            <button id="recovered">
+              Recovered
+            </button>
+          </th>
+          <th class="content1">
+            <button id="totalTests">
+              Total Tests
+            </button>
+          </th>
+          <th class="content1">
+            <button id="testsPer">
+              Tests Per One Million
+            </button>
+          </th>
+        </tr>
+      </tbody>
+      <tbody id="content"></tbody>
+    </table>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
